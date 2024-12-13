@@ -19,7 +19,7 @@
   --bg-image: url(../images/cover-image-light.png);
 }
 
-.theme-light .header-rec{
+.theme-light .header-rec {
   display: none;
 }
 
@@ -36,7 +36,7 @@
     --bg-image: url(../images/cover-image-light.png);
   }
 
-  .header-rec{
+  .header-rec {
     display: none;
   }
 }
