@@ -7,8 +7,11 @@
   --font-weight-normal: 400;
   --font-weight-bold: 700;
   --bg-main-color: #000028;
-  --bg-accent-color: #ff0070;
+  --bg-accent-color: #FF0070;
+  --main-text-color: #F1B2CE;
+  --accent-text-color: #000028;
   --hover-opacity:#FF007066;
-  --main-text-color: #f1b2ce;
-  --accent-text-color: #db00ff;
+  --decor-color:#FF0070;
+  --text-shadow:#DB00FF;
+  --bg-image: url(../images/cover-image-dark.png);
 }

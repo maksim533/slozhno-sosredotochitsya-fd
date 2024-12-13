@@ -9,175 +9,34 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-main-color: #fff1f7;
-  --bg-accent-color: #ff8dcb;
+  --bg-main-color: #FFF1F7;
+  --bg-accent-color: #FF8DCB;
   --main-text-color: #353430;
-  --accent-text-color: #ffc2e6;
+  --accent-text-color: #353430;
+  --text-shadow: #FFC2E6;
   --hover-opacity: #32312d66;
+  --decor-color:#353430;
+  --bg-image: url(../images/cover-image-light.png);
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  background-color: var(--bg-main-color);
-}
-
-.theme-light .header {
-  background: url(../images/cover-image-light.png) no-repeat center/cover;
-}
-
-.theme-light .header-rec {
+.theme-light .header-rec{
   display: none;
 }
-
-.theme-light .header__theme-menu-button {
-  color: var(--main-text-color);
-}
-
-.theme-light .header__theme-menu-button_active {
-  border: 1px solid var(--main-text-color);
-}
-
-.theme-light .decorated-zone::after {
-  border: 1px solid var(--main-text-color);
-  border-bottom: 0px;
-  border-left: 0px;
-}
-
-.theme-light .decorated-zone::before {
-  border: 1px solid var(--main-text-color);
-  border-top: 0px;
-  border-right: 0px;
-}
-
-.theme-light .title-decor {
-  color: var(--main-text-color);
-}
-
-.theme-light .section-title {
-  color: var(--main-text-color);
-}
-
-/*   hover   */
-
-.theme-light .header__theme-menu-button:hover {
-  border: 1px solid var(--hover-opacity);
-}
-
-.theme-light .text__shadow:hover {
-  text-decoration: underline;
-}
-
-/*   hover   */
-
-/*   focus   */
-
-.theme-light .header__theme-menu-button:focus {
-  outline: none;
-}
-
-.theme-light .text__shadow:focus {
-  outline: none;
-}
-
-/*   focus   */
-
-/*   focus-visible  */
-
-.theme-light .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--main-text-color);
-  outline: none;
-}
-
-.theme-light .text__shadow:focus-visible {
-  outline: 1px solid var(--main-text-color);
-}
-
-/*   focus-visible  */
 
 @media (prefers-color-scheme: light) {
   
   :root {
-    --bg-main-color: #fff1f7;
-    --bg-accent-color: #ff8dcb;
+    --bg-main-color: #FFF1F7;
+    --bg-accent-color: #FF8DCB;
     --main-text-color: #353430;
-    --accent-text-color: #ffc2e6;
+    --accent-text-color: #353430;
+    --text-shadow:#FFC2E6;
     --hover-opacity: #32312d66;
+    --decor-color:#353430;
+    --bg-image: url(../images/cover-image-light.png);
   }
 
-  .page {
-    background-color: var(--bg-main-color);
-  }
-
-  .header {
-    background: url(../images/cover-image-light.png) no-repeat center/cover;
-  }
-
-  .header-rec {
+  .header-rec{
     display: none;
   }
-
-  .header__theme-menu-button {
-    color: var(--main-text-color);
-  }
-
-  .header__theme-menu-button_active {
-    border: 1px solid var(--main-text-color);
-  }
-
-  .decorated-zone::after {
-    border: 1px solid var(--main-text-color);
-    border-bottom: 0px;
-    border-left: 0px;
-  }
-
-  .decorated-zone::before {
-    border: 1px solid var(--main-text-color);
-    border-top: 0px;
-    border-right: 0px;
-  }
-
-  .title-decor {
-    color: var(--main-text-color);
-  }
-
-  .section-title {
-    color: var(--main-text-color);
-  }
-
-  /*   hover   */
-
-  .header__theme-menu-button:hover {
-    border: 1px solid var(--hover-opacity);
-  }
-
-  .text__shadow:hover {
-    text-decoration: underline;
-  }
-
-  /*   hover   */
-
-  /*   focus   */
-
-  .header__theme-menu-button:focus {
-    outline: none;
-  }
-
-  .text__shadow:focus {
-    outline: none;
-  }
-
-  /*   focus   */
-
-  /*   focus-visible  */
-
-  .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--main-text-color);
-    outline: none;
-  }
-
-  .text__shadow:focus-visible {
-    outline: 1px solid var(--main-text-color);
-  }
-
-  /*   focus-visible  */
 }
