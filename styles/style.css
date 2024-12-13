@@ -231,11 +231,11 @@
 
 /*   hover    */
 
-.header__theme-menu-button:hover{
+.header__theme-menu-button:hover {
   border: 1px solid var(--hover-opacity);
 }
 
-.text__shadow:hover{
+.text__shadow:hover {
   text-decoration: underline;
 }
 
@@ -243,11 +243,11 @@
 
 /*   focus    */
 
-.header__theme-menu-button:focus{
+.header__theme-menu-button:focus {
   outline: none;
 }
 
-.text__shadow:focus{
+.text__shadow:focus {
   outline: none;
 }
 
@@ -255,12 +255,12 @@
 
 /*   focus-visible */
 
-.header__theme-menu-button:focus-visible{
+.header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--bg-accent-color);
   outline: none;
 }
 
-.text__shadow:focus-visible{
+.text__shadow:focus-visible {
   outline: 1px solid var(--main-text-color);
 }
 
@@ -271,7 +271,7 @@
 /*   media-запросы  */
 
 @media (width >= 768px) {
-  
+
   .header {
     grid-template-rows: 46.3% 24.3% 29.3%;
     min-block-size: 1024px;
