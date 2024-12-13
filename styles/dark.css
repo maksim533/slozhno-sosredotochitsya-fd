@@ -18,3 +18,21 @@
 .theme-dark .header-rec {
   display: block;
 }
+
+@media (prefers-color-scheme: dark) {
+  
+  :root {
+    --bg-main-color: #000028;
+    --bg-accent-color: #FF0070;
+    --main-text-color: #F1B2CE;
+    --accent-text-color: #000028;
+    --hover-opacity:#FF007066;
+    --decor-color:#FF0070;
+    --text-shadow:#DB00FF;
+    --bg-image: url(../images/cover-image-dark.png);
+  }
+
+  .header-rec {
+    display: block;
+  }
+}
