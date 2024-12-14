@@ -273,7 +273,7 @@
 @media (width >= 768px) {
 
   .header {
-    grid-template-rows: 46.3% 24.3% 29.3%;
+    grid-template-rows: 28% 27% 42.4%;
     min-block-size: 1024px;
     block-size: 100vh;
   }
@@ -297,6 +297,9 @@
     top: 27px;
     right: 27px;
   }
+  .header__theme-menu {
+    align-self: flex-end;
+  }
 
   .header__theme-menu-list {
     padding-inline-end: 20px;
@@ -304,6 +307,7 @@
 
   .header__title {
     padding-inline-start: 0;
+    align-self: flex-end;
   }
 
   .title {
@@ -312,7 +316,7 @@
 
   .header-decor {
     justify-self: end;
-    align-self: flex-start;
+    align-self: center;
     margin-inline-end: 20px;
     max-inline-size: 364px;
   }
@@ -326,11 +330,11 @@
     grid-template-columns: 1fr 2fr;
   }
 
-  .section-text:nth-child(2) .section-title {
+  .content-attention-concentration .section-title {
     max-inline-size: 236px;
   }
 
-  .section-text:nth-child(2) {
+  .content-attention-concentration {
     grid-template-columns: 1fr;
   }
 
@@ -391,24 +395,27 @@
     padding-block-start: 20px;
     padding-inline-end: 0;
   }
-
+  .header__title {
+    align-self: flex-start;
+  }
   .header-decor {
     max-inline-size: 490px;
+    align-self: flex-start;
   }
 
   .section-text {
     gap: 10px;
   }
 
-  .section-text:nth-child(2) .section-title {
+  .content-attention-concentration .section-title {
     max-inline-size: 315px;
   }
 
-  .section-text:nth-child(2) {
+  .content-attention-concentration {
     gap: 20px;
   }
 
-  .section-text:nth-child(2) .text_list {
+  .content-attention-concentration .text_list {
     grid-template-columns: repeat(3, 1fr);
   }
 
